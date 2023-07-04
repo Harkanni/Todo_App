@@ -2,13 +2,12 @@ import { useState } from "react"
 
 export default function ConditionalComponent() {
     const [display, setDisplay] = useState(true)
-    if(display) {
-        return <div>
-            <h3>This is a conditional component</h3>
-        </div>
+    let output
+    if(display){
+        output = <h3>This is a conditional component</h3>
     } else {
-        return <div> 
-                <h3>Nothing to see here</h3>
-            </div>
+        output = <h3>Nothing to see here</h3>
     }
+
+    return <div>{output}</div>
 }

@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import FunctionalCounter from './components/FunctionalCounter';
+import ConditionalComponent from './components/ConditionalComponent';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Message messageCode="10" messageContent="This is a message from props"></Message> */}
       {/* <Resume name="Akanni"></Resume> */}
       {/* <FunctionEvent></FunctionEvent> */}
-      <FunctionalCounter></FunctionalCounter>
+      {/* <FunctionalCounter></FunctionalCounter> */}
+      <ConditionalComponent></ConditionalComponent>
     </div>
   );
 }

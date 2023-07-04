@@ -15,4 +15,5 @@ function FunctionalCounter() {
     </div>
 }
 
+
 export default FunctionalCounter;

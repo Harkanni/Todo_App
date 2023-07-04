@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
+import Product from './components/Product';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Resume name="Akanni"></Resume> */}
       {/* <FunctionEvent></FunctionEvent> */}
       {/* <FunctionalCounter></FunctionalCounter> */}
-      <ConditionalComponent></ConditionalComponent>
+      {/* <ConditionalComponent></ConditionalComponent> */}
+      <Product></Product>
     </div>
   );
 }

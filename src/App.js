@@ -9,6 +9,7 @@ import FunctionEvent from './components/FunctionEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Product from './components/Product';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <FunctionEvent></FunctionEvent> */}
       {/* <FunctionalCounter></FunctionalCounter> */}
       {/* <ConditionalComponent></ConditionalComponent> */}
-      <Product></Product>
+      {/* <Product></Product> */}
+      <Form></Form>
     </div>
   );
 }
